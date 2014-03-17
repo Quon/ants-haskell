@@ -1,0 +1,3 @@
+[submodule "AI-Challenge-2011-bot"]
+	path = AI-Challenge-2011-bot
+	url = https://github.com/xathis/AI-Challenge-2011-bot.git
