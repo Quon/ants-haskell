@@ -1,8 +1,5 @@
 *.hi
 *.o
-*.py
-*.zip
-*.txt
 MyBot
 tags
 test
