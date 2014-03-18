@@ -31,7 +31,8 @@ import Control.Applicative
 import Control.Monad.ST
 
 import Data.Array
-import Data.Array.ST
+import Data.Array.ST hiding (unsafeThaw)
+import Data.Array.Unsafe (unsafeThaw)
 import Data.List (isPrefixOf, foldl')
 import Data.Char (digitToInt, toUpper)
 import Data.Maybe (fromJust)
